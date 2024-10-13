@@ -1,7 +1,14 @@
 import React from "react";
 import Hero from "../components/headerSection/Hero";
+import LatestCollections from "../components/LatestCollections";
+
 const Home = () => {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <LatestCollections />
+    </>
+  );
 };
 
 export default Home;

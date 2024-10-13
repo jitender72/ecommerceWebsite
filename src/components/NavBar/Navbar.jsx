@@ -93,7 +93,9 @@ function Navbar() {
           className="p-2 text-black cursor-pointer flex gap-2 pt-4"
         >
           <img src={assets.dropdown_icon} alt="" className="h-4 rotate-180" />
-          <p className="text-black h-4 flex flex-col justify-center">Back</p>
+          <p className="text-black h-4 flex flex-col justify-center sm:hidden">
+            Back
+          </p>
         </div>
 
         <div
